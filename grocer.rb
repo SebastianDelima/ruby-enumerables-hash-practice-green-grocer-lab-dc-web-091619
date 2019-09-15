@@ -3,6 +3,7 @@ require "pry"
 
 
 def consolidate_cart(cart)
+  binding.pry
 new_hash ={}
 cart.each do |hash| 
   hash.each do |ingredient_name, ingredient_details|
